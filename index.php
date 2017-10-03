@@ -1,11 +1,11 @@
 <?php
 //  fonction qui prend en paramètre deux chaînes de caractère et qui retourne la fusion de ces deux chaînes.
-function mafonction($var1,$var2){
+function mergeString($string1,$string2){
   // Fusionner les chaînes de caractère des paramètre
-  $fusion = $var1.$var2;
-  return ($fusion);
+  $string = $string1.$string2;
+  return $string1;
 
 }
 //Appel de la fonction
-echo mafonction("Andre","Victor");
+echo mergeString('Andre',' Victor');
  ?>
